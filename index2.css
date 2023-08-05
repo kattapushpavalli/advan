@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(rgb(151, 61, 76),purple);
+    background-attachment: fixed;
+    
+}
+h2{
+
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    text-shadow: 100px;
+}
+#emoji{
+    width:300px;
+    height:300px;
+    background-color:yellow ;
+    border-radius: 50%;
+    margin-top:160px;
+    margin-left: 580px;
+}
+#leye{
+    width:30px;
+    height:55px;
+    background-color: black;
+    border-radius: 49%;
+    transform: translate(180px,60px);
+     
+}
+#reye{
+    width:30px;
+    height:55px;
+    background-color: black;
+    border-radius: 49%;
+    transform: translate(90px,5px);
+     
+}
+#mouth{
+    position: absolute;
+    top:65%;
+    left:48%;
+    width: 8%;
+    height: 5%;
+    background-color: transparent;
+    border: 3px solid white; /* Black border will create the curved mouth effect */
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transform: translateX(-50%); 
+    background-color: white;
+}
+#mouth2{
+    position: absolute;
+    top:54%;
+    left:40%;
+    width: 16%;
+    height:20%;
+    background-color: transparent;
+    border: 3px solid white; /* Black border will create the curved mouth effect */
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transform: translateX(-50%); 
+    background-color: white;
+
+}
+
+#lpupil{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius: 50%;
+    transform: translate(8px,40px);
+    position:absolute;
+        
+}
+#rpupil{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius: 50%;
+    transform: translate(98px,-9px);
+        
+}
+#emoji:hover{
+    background-color:green;
+}
+#mouth:hover{
+    background-color:white;
+
+
+}
+
+#mouth2:hover{
+    background-color:red;
+    border:3px solid red;
+    transform: scale(2,4);
+}
